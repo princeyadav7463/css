@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Exercise</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.9;
+      background-color: aqua;
+      display: flex;
+    }
+    h1{
+      color: yellow;
+    }
+    .continer{
+      background-color: #fff;
+      border: 2PX solid blueviolet;
+      margin-bottom: 20px;
+      padding: 10PX;
+    }
+    .flex-container{
+      display: flex;
+      height: 500px;
+      margin-bottom: 10px;
+    }
+    .circle{
+      width:   150px;
+      height:  150px;
+      border-radius: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      margin: 5px;
+      cursor: pointer;
+      
+    }
+    .pastel-1:hover{
+      color: #000;
+      background-color:rgb(16, 201, 47) ;
+    }
+    .pastel-2:hover{
+      color: black;
+      background-color: yellow;
+    }
+    .pastel-3:hover{
+      color: #000;
+      background-color: blue;
+    }
+    .pastel-4:hover{
+      color: #f3e4e4;
+      background-color: red;
+    }
+    .pastel-1{
+      background-color: #e6e3e9;
+    }
+    .pastel-2{
+      background-color: rgb(221, 221, 201);
+    }
+    .pastel-3{
+      background-color: rgb(221, 221, 201);
+    }
+    .pastel-4{
+      background-color: #e6e3e9;
+    }
+    .pastel-10{
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    }
+    .image{
+       width: 200px;
+    height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Flexbox Exercise</h1>
+  <div class="continer">
+    <h2>Click Here and know colour name</h2>
+    <div class="flex-container">
+      <div class="circle pastel-1">Green</div>
+      <div class="circle pastel-2">Yellow</div>
+      <div class="circle pastel-3">Blue</div>
+      <div class="circle pastel-4">Red</div>
+    </div>
+  </div>
+
+  <div class="continer">
+    <h2>2.Flex Direction Column</h2>
+    <div class="flex-container">
+    <div class="circle pastel-10"> <img class="image" src="../01_basic/image/Screenshot (7).png" alt="image here"></div>
+    <div class="circle pastel-2">2</div>
+    <div class="circle pastel-3">3</div>
+    <div class="circle pastel-4">4</div>
+    </div>
+  </div>
+</body>
+</html>
